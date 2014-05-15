@@ -3,8 +3,6 @@
 # Commands:
 #   hubot command - desc
 
-_ = require 'underscore'
-
 module.exports = (robot) ->
   robot.respond /SCORE$/i, (msg) ->
     msg.send "https://docs.google.com/spreadsheets/d/14Q64dLEQxldWD-yDEbpRU144L11LRpHmYr0aEKxdI5A/edit#gid=0"
@@ -17,6 +15,6 @@ module.exports = (robot) ->
       'https://idobata.s3.amazonaws.com/uploads/attachment/image/2341/60b4e2b7-df23-491c-af2f-56b55863ce5f/image.jpg',
       'https://idobata.s3.amazonaws.com/uploads/attachment/image/2508/69a8c62a-0ca1-4ff4-9af5-00f31d4dfb60/72000.png',
     ]
-    msg.send _(response).sample()
+    msg.send msg.random response
   robot.respond /TEN$/i, (msg) ->
     msg.send 'https://idobata.s3.amazonaws.com/uploads/attachment/image/3108/1568ca1d-6f17-47fe-b6a0-cdec4f2a4740/mahjong_tensu.png'

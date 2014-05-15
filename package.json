@@ -28,8 +28,5 @@
   "engines": {
     "node": ">= 0.8.x",
     "npm": ">= 1.1.x"
-  },
-  "devDependencies": {
-    "underscore": "^1.6.0"
   }
 }
