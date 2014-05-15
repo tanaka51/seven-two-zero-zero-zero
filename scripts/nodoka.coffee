@@ -23,3 +23,5 @@ https://idobata.s3.amazonaws.com/uploads/attachment/image/3132/7075df35-d113-442
 """
   robot.hear /牌/i, (msg) ->
     msg.send "http://haigacat.herokuapp.com/333555777p7777s1z.gif"
+  robot.respond /RULE$/i, (msg) ->
+    msg.send "http://tenhou.net/man/#RULE"
