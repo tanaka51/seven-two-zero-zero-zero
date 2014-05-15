@@ -18,10 +18,7 @@ module.exports = (robot) ->
     msg.send msg.random response
   robot.respond /TEN$/i, (msg) ->
     msg.send """
-親
 https://idobata.s3.amazonaws.com/uploads/attachment/image/3131/8cdea512-cbe8-4024-85ce-e7779256183a/__________2014-05-15_13.58.36.png
-
-子
 https://idobata.s3.amazonaws.com/uploads/attachment/image/3132/7075df35-d113-4428-8bd3-92aaf53e102f/__________2014-05-15_13.58.55.png
 """
   robot.hear /牌$/i, (msg) ->
