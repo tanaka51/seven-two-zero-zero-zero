@@ -18,3 +18,5 @@ module.exports = (robot) ->
     msg.send msg.random response
   robot.respond /TEN$/i, (msg) ->
     msg.send 'https://idobata.s3.amazonaws.com/uploads/attachment/image/3108/1568ca1d-6f17-47fe-b6a0-cdec4f2a4740/mahjong_tensu.png'
+  robot.hear /牌$/i, (msg) ->
+    msg.send "http://haigacat.herokuapp.com/1333m23345p67s111z.gif"
