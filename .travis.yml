@@ -7,3 +7,6 @@ deploy:
   app: seven-two-zero-zero-zero
   on:
     repo: tanaka51-jp/seven-two-zero-zero-zero
+notifications:
+  webhooks:
+    - https://idobata.io/hook/4f139af3-8115-4090-83cd-7157338d69ac
