@@ -25,6 +25,3 @@ https://idobata.s3.amazonaws.com/uploads/attachment/image/3132/7075df35-d113-442
     msg.send "http://haigacat.herokuapp.com/1z333505777p0z77s0z.gif"
   robot.respond /RULE$/i, (msg) ->
     msg.send "http://tenhou.net/man/#RULE"
-  robot.respond /maguchi/i, (msg) ->
-    GoogleSpreadsheets (
-    msg.send ""
