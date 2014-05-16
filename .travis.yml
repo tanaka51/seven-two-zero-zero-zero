@@ -1,1 +1,8 @@
 language: javascript
+deploy:
+  provider: heroku
+  api_key:
+    secure: Z9g+qZ7PYEq/Mhppjp4C7vMynEwmj/F5Qk/pOpngp14X6gTSJXwFlGN6KXCpv551lSH4t5nCfmsMjyoyyGhJ4EFJzE/pkIO4va7Jh/i2piN/iFJSRE4yj0bDBWV9KD0oak9etb6Tm39Wqa/o71T6B53zwD+nagsyo9fYMnFuyL0=
+  app: seven-two-zero-zero-zero
+  on:
+    repo: tanaka51-jp/seven-two-zero-zero-zero
