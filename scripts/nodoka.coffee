@@ -25,3 +25,5 @@ https://idobata.s3.amazonaws.com/uploads/attachment/image/3132/7075df35-d113-442
     msg.send "http://haigacat.herokuapp.com/1z333505777p0z77s0z.gif"
   robot.respond /RULE$/i, (msg) ->
     msg.send "http://tenhou.net/man/#RULE"
+  robot.hear /FLADA_AUXV\.WISHLIST/i, (msg) ->
+    msg.send "['彼女', '布団', '冷蔵庫', '洗濯機', '机', '椅子', '電子レンジ']"
