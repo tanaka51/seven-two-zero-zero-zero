@@ -27,5 +27,3 @@ https://idobata.s3.amazonaws.com/uploads/attachment/image/3132/7075df35-d113-442
     msg.send "http://tenhou.net/man/#RULE"
   robot.hear /FLADA_AUXV\.WISHLIST/i, (msg) ->
     msg.send "['彼女', '布団', '冷蔵庫', '洗濯機', '机', '椅子', '電子レンジ']"
-  robot.hear /gissan/i, (msg) ->
-    msg.send "https://idobata.s3.amazonaws.com/uploads/attachment/image/5965/34a4c11f-3d40-4872-80ab-984076a1c87c/Selection_011.png"
