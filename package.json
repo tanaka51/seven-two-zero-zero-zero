@@ -25,6 +25,7 @@
     "hubot-docomochatter": "^0.1.0",
     "hubot-idobata": "0.0.3",
     "hubot-scripts": ">= 2.5.0 < 3.0.0",
+    "hubot-cron": ">= 0.1.0",
     "idobata-client": "0.0.2"
   },
   "engines": {
